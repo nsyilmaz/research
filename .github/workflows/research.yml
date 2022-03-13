@@ -15,4 +15,5 @@ jobs:
             - name: Test with Hede
               #uses: docker://shiftleft/scan-slim:latest
               #uses: docker://shiftleft/sast-scan:latest
-              uses: ShiftLeftSecurity/sast-scan@master
+              #uses: ShiftLeftSecurity/sast-scan@master
+              uses: docker://nsyilmaz/git-research:latest
